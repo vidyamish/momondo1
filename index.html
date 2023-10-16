@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momondo - Make your Travelling easy</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header>
+        <ul>
+            <li><a href="index.html">
+                <img src="./assest/img/logo.jpeg" alt="logo" width="100px"height="30px"style="padding-top: 10px;">
+            </a></li>
+            <li><a href="javascript:void()" class="active">Flights</a></li>
+            <li><a href="javascript:void()">Hotel</a></li>
+            <li><a href="javascript:void()">Cire Hire</a></li>
+            <li><a href="javascript:void()">Trip Finder</a></li>                  
+        </ul>
+        <ul>
+            <li><a href="javascript:void()">
+                <img src="./assest/img/us-flag.jpeg" alt="us-flag" width="20px"height="20px" style="padding-top: 8px;"> English</a></li>
+            <li><a href="javascript:void()">Log In</a></li>
+        </ul>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- banner Section Start  -->
+    <div class="banner">
+        <h1>"The best place  to find <br> the cheapest a airfares"</h1>
+        <h2>- every single time</h2>
+        <form action="">
+            <div>
+                <div class="switchButton">
+                    <button type="button" class="active"><i class="fa-solid fa-plane-departure"></i> Flights</button>
+                    <button type="button"><i class="fa-solid fa-shop"></i> Hotels</button>
+                    <button type="button"><i class="fa-solid fa-car"></i> Cars</button>
+                </div>
+                <div class="searchForm">
+                   <label for="origin-city">Origin City</label>
+                   <input type="text" name="origin-city" id="origin-city" placeholder="Enter Origin City">
+                   
+                   <span><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+    
+                   <label for="destination-city">Destination City</label>
+                   <input type="text" name="destination-city" id="destination-city" placeholder="Enter Destination City">
+    
+                   <label for="trave-start-date">Start Date</label>
+                   <input type="date" name="trave-start-date" id="trave-start-date" placeholder="Enter Start Date">
+    
+                   <label for="trave-end-date">End Date</label>
+                   <input type="date" name="trave-end-date" id="trave-end-date" placeholder="Enter End Date">
+                   
+                   <label for="select-passenger">Select Passenger</label>
+                   <select name="select-passenger" id="select-passenger">
+                        <option selected>Select Passenger</option>
+                        <option value="1 pass">1 Passenger</option>
+                        <option value="2 pass">2 Passenger</option>
+                        <option value="3 pass">3 Passenger</option>
+                        <option value="4 pass">4 Passenger</option>
+                        <option value="5 pass">5 Passenger</option>
+                   </select>
+                   <div class="info">
+                        <i class="fa-solid fa-suitcase-rolling"></i> Trip type:Return Trip
+                        <select class="infoclass"style="width:15px; height:10px;margin-top:40px;">
+                            <option value="Return trip" selected></option>
+                            <option value="firs">Firts</option>
+                        </select>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-solid fa-money-bill-wave"></i> Ticket&nbsp;Class 
+                        <select name="ticketclass" id="ticketclass" style="width:15px; height:10px;margin-top:40px;">
+                            <option value="economy">Economy</option>
+                            <option value="business">Business</option>
+                            <option value="firstclass">First Class</option>
+                            <option value="economy">Economy</option>
+                        </select>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="checkbox"style="width:15px; height:10px;margin-top:0px;">Direct Flight Only
+                            <input type="checkbox"style="width:15px; height:10px;margin-top:0px;">Include Nearby Airports
+                   </div>
+                </div>  
+            </div>    
+            <div>
+                <button type="submit" class="smt">Search</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <!-- /banner Section End  -->
+
+    <!-- Fun Section Start  -->
+    <section class="fun">
+        <h2>SOME FUN WE COVER</h2>
+        <ul>
+            <li>
+                <i class="fa-solid fa-person-biking"></i><br><span>5670 M</span>
+                <p>CYLNG TRACK</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-map-location-dot"></i><br><span>480 M</span>
+                <p>DISTANCE COVERED</p>   
+                
+            </li>
+            <li>
+                <i class="fa-solid fa-person-hiking"></i><br> <span>5670 KM</span>
+                <p>ALTITUTE</p>
+                
+            </li>
+            <li>
+                <i class="fa-solid fa-sailboat"></i><br><span>180 KM</span><p>SAILING DISTANCE</p>  
+                
+            </li>
+            <li>
+                <i class="fa-solid fa-cloud-sun"></i><br><span>570 Days</span><p>SPEND ADVENTURE</p> 
+                
+            </li>
+            <li>
+                <i class="fa-solid fa-dove"></i><br><span>567 M</span><p>JUGLE DISTANCE</p>
+                
+            </li>
+        </ul>
+    </section>
+    <!-- /Fun Section End  -->
+
+    <!-- Newslatter Section Start -->
+    <section class="newslatter">
+        <h2>SUSCRIBE FOR TRAVEL NEWSLATTERS</h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi natus saepe atque.<br>orem ipsum dolor sit amet consectetur adipisicing elit.</P>
+        <form action="">
+            <label for="newsemail">News</label>
+            <input type="email"name="newsemail"id="newsemail"placeholder="Enter your Email address...">
+            <button type="submit">Search</button>
+        </form>
+
+    </section>
+    <!-- /Newslatter Section End -->
+
+    <!-- Destination Section Start -->
+    <section class="destination">
+        <h2>POPULAR DESTINATION</h2>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+        </ul>
+
+    </section>
+    <!-- /Destination Section End -->
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./assest/js/script.js"></script>
+</body>
+</html>
